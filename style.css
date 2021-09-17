@@ -1,0 +1,117 @@
+/* Colors and fonts */
+body{
+	background: rgb(200, 200, 200);
+	color: rgb(50, 50, 50);
+	font-family: helvetica;
+	font-size: 17px;
+}
+h1{
+	font-family: courier;
+	color: blue;
+	letter-spacing: 4px;
+	font-size: 32px;
+	font-weight: 800;
+
+}
+h2{
+	font-family: courier;
+    color: rgb(100, 80, 100);
+    font-weight: 900;
+    letter-spacing: 2px;
+    font-size: 24px;
+	
+}
+a{
+	text-decoration: none;
+	color: red;
+}
+a:hover{
+	color: rgb(200, 200, 200);
+}
+
+/* Custom design with class (for 99% design) */
+
+.container {
+ 	width: 700px;
+ 	margin: 40px auto;
+
+}
+
+@media (max-width: 760px){
+	.container{
+		width: 600px;
+		background: blue;
+	}
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+		background: red;
+	}
+}
+
+
+.card-white {
+	margin-bottom: 20px;
+	text-align: center;
+	background: white;            /*white background*/
+	padding: 30px;                /*Internal space */
+	border-radius: 4px;           /*Small raduis*/ 
+	box-shadow: 0 15px 35px rgba(0, 0, 3, .1) /*Stripe Shadow*/
+	/*margin: 20px 0px;*/
+}
+
+.btn-blue{
+	background-color: #6B72E1;
+	color: white;
+	font-weight: 500;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+
+.btn-blue:hover{
+	background-color: black;
+	color: white;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li{
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i{
+	font-size: 50px;
+	color: rgb(230, 230, 230);
+}
+
+.list-inline i:hover{
+	color: black;
+} 
+
+/*Design adjustments using id (for the 1% design remainging)*/
+#profile {
+	width: 184px;
+	height: 231px;
+	border-radius: 50%;
+	box-shadow: 5px 5px 3px black;
+
+}
+
+#banner p{
+	font-family: helvetica;
+    color: rgb(50, 50, 50);
+    font-weight: 100;
+    letter-spacing: 6px;
+    font-size: 15px;
+
+}
+#espace p{
+	margin-bottom: 40px;
+	margin-top: 30px
+}
